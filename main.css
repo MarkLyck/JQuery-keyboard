@@ -1,0 +1,46 @@
+body {
+  background: #EEEEEE; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 1vh 1vw;
+  box-sizing: border-box; }
+
+.text {
+  height: 50vh;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+  resize: none; }
+
+.keyboard {
+  height: 45vh; }
+  .keyboard div {
+    display: flex;
+    height: calc(100%/5); }
+    .keyboard div button {
+      flex: 1;
+      background: #fff;
+      border: 0;
+      border-radius: 10px;
+      margin: 5px;
+      outline: none;
+      cursor: pointer; }
+    .keyboard div .selected {
+      background: #d9d9d9; }
+    .keyboard div #del {
+      flex: 2; }
+    .keyboard div #tab {
+      flex: 2; }
+    .keyboard div #caps {
+      flex: 2; }
+    .keyboard div #enter {
+      flex: 2; }
+    .keyboard div .shift {
+      flex: 2; }
+
+/*# sourceMappingURL=main.css.map */

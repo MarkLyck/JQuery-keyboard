@@ -1,0 +1,56 @@
+body {
+  background: #EEEEEE;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 1vh 1vw;
+  box-sizing: border-box;
+}
+
+.text {
+  height: 50vh;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+  resize: none;
+}
+
+.keyboard {
+  height: 45vh;
+  div {
+    display: flex;
+    height: calc(100%/5);
+    button {
+      flex: 1;
+      background: #fff;
+      border: 0;
+      border-radius: 10px;
+      margin: 5px;
+      outline: none;
+      cursor: pointer;
+    }
+    .selected {
+      background: darken(#fff, 15%);
+    }
+    #del {
+      flex: 2;
+    }
+    #tab {
+      flex: 2;
+    }
+    #caps {
+      flex: 2;
+    }
+    #enter {
+      flex: 2;
+    }
+    .shift {
+      flex: 2;
+    }
+  }
+}
