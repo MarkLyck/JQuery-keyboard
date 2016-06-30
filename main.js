@@ -76,7 +76,7 @@ $fkeys.on('click', function(){
   } else if ($key === 'space') {
     $textBox.html($textBox.html() + ' ');
   } else if ($key === 'delete') {
-    $textBox.html($textBox.html().slice(0, -1)); // This is broke.
+    $textBox.html($textBox.html().slice(0, -1));
   }
 });
 
