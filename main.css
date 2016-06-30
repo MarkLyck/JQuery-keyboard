@@ -1,35 +1,41 @@
 body {
-  background: #EEEEEE; }
+  background: #ECECEC; }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  padding: 1vh 1vw;
   box-sizing: border-box; }
 
 .text {
   height: 50vh;
   outline: none;
   border: 0;
-  border-radius: 10px;
-  margin-bottom: 2vh;
+  padding: 10px;
+  margin-bottom: 1vh;
   resize: none; }
 
 .keyboard {
-  height: 45vh; }
+  height: 46vh; }
   .keyboard div {
     display: flex;
     height: calc(100%/5); }
     .keyboard div button {
       flex: 1;
       background: #fff;
+      color: #8C8C8C;
       border: 0;
-      border-radius: 10px;
-      margin: 5px;
+      box-shadow: 0 2px #d9d9d9;
+      border-radius: 3px;
+      margin: 3px;
       outline: none;
       cursor: pointer; }
+      .keyboard div button:hover {
+        background: #f2f2f2; }
+      .keyboard div button:active {
+        background: #d9d9d9;
+        box-shadow: none; }
     .keyboard div .selected {
       background: #d9d9d9; }
     .keyboard div #del {
